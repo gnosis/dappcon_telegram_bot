@@ -1,4 +1,5 @@
 from datetime import datetime
+
 import utils
 
 SCHEDULE = utils.load_schedule()

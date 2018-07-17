@@ -1,6 +1,7 @@
 import json
 from collections import namedtuple
 from datetime import datetime
+
 from event import Event
 
 

@@ -1,22 +1,27 @@
 
-from telegram.ext import CommandHandler, MessageHandler, Filters, Updater
-from bot_commands import start, help, echo, right_now, next, side, main, build
-
 import logging
-
-
 import sys
+
+from telegram.ext import CommandHandler, MessageHandler, Filters, Updater
+
+from bot_commands import start, help, echo, right_now, next, side, main, build
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )
 
+_log = logging.getLogger(__name__)
 
-def main():
-    print("Beginning dAppCon Bot Service")
 
-    key = sys.argv[1]
+def deploy_bot():
+    _log.info("....:Beginning dAppCon Bot Service:....")
+
+    try:
+        key = sys.argv[1]
+    except IndexError:
+        raise EnvironmentError(
+            "Supply Telegram API-key as first script parameter!")
 
     updater = Updater(token=key)
     dispatcher = updater.dispatcher
@@ -31,6 +36,7 @@ def main():
     dispatcher.add_handler(CommandHandler('help', help))
 
     updater.start_polling()
+    _log.info("Successfully dispatched bot commands.")
 
 if __name__ == '__main__':
-    main()
+    deploy_bot()
