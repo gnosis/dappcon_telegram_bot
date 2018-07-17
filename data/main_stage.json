@@ -1,0 +1,333 @@
+[
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 10:20",
+    "end": "2018-07-19 10:40",
+    "title": "Bringing Liquidity On-Chain: Challenges and Applications",
+    "speakers": [
+      "Yaron Velner (Kyber Network)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 10:40",
+    "end": "2018-07-19 11:00",
+    "title": "Batch Auctions on Plasma",
+    "speakers": [
+      "Alexander Hermann (Gnosis)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 11:00",
+    "end": "2018-07-19 11:20",
+    "title": "Trade and Token Networks",
+    "speakers": [
+      "Don Mosites (Airswap)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "panel",
+    "start": "2018-07-19 11:35",
+    "end": "2018-07-19 12:05",
+    "title": "The Future of Decentralized Exchanges",
+    "speakers": [
+      "Yaron Velner (Kyber Network)",
+      " Balazs Deme (Herdius)",
+      " Alexander Hermann (Gnosis)",
+      " Don Mosites (Airswap)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 12:05",
+    "end": "2018-07-19 12:25",
+    "title": "Updates from the Solidity Team",
+    "speakers": [
+      "Alex Beregszaszi (Ethereum Foundation)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 12:25",
+    "end": "2018-07-19 12:45",
+    "title": "Raiden, the Payment Channel Network for Ethereum",
+    "speakers": [
+      "Lefteris Karapetsas (Brainbot Technologies)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "panel",
+    "start": "2018-07-19 12:45",
+    "end": "2018-07-19 13:15",
+    "title": "Talking State Channels and Plasma",
+    "speakers": [
+      "Johann Barbie (Parseclabs.org)",
+      " Alexander Hermann (Gnosis)",
+      " Augusto Hack (Brainbot Technologies)",
+      " Tom Close (Magmo)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 14:30",
+    "end": "2018-07-19 14:50",
+    "title": "Maker - What\u2019s to Come",
+    "speakers": [
+      "Matt Richard (MakerDAO)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 14:50",
+    "end": "2018-07-19 15:10",
+    "title": "Browser 3.0 - How to Build Secure Web3 Clients",
+    "speakers": [
+      "Philipp Langhans (Ethereum Foundation)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 15:15",
+    "end": "2018-07-19 15:35",
+    "title": "Solidity Dapp Optimization",
+    "speakers": [
+      "Gon\u00e7alo S\u00e1 (ConsenSys Diligence)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 15:35",
+    "end": "2018-07-19 15:55",
+    "title": "Solidity 0.5.0",
+    "speakers": [
+      "Dr. Christian Reitwiessner (Ethereum Foundation)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "panel",
+    "start": "2018-07-19 16:10",
+    "end": "2018-07-19 16:40",
+    "title": "Security and What\u2019s at Stake",
+    "speakers": [
+      "Gon\u00e7alo S\u00e1 (ConsenSys Diligence)",
+      " Manuel Ar\u00e1oz (Zeppelin)",
+      " Nick Munoz-McDonald (Solidfied)",
+      " Dr. Christian Reitwiessner (Ethereum Foundation)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 16:40",
+    "end": "2018-07-19 17:00",
+    "title": "Executable Signed Messages: Improve User Experience by Not Keeping Ether with Private Keys Anymore",
+    "speakers": [
+      "Alex van de Sande (Ethereum Foundation)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 17:00",
+    "end": "2018-07-19 17:20",
+    "title": "Gnosis Safe - Trustless Smart Contract Deployment via Transaction Relay",
+    "speakers": [
+      "Richard Meissner (Gnosis)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 17:20",
+    "end": "2018-07-19 17:40",
+    "title": "Beyond Hypertext - Reflections on the Post-Web System",
+    "speakers": [
+      "Jarrad Hope (Status Technologies)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "panel",
+    "start": "2018-07-19 17:45",
+    "end": "2018-07-19 18:10",
+    "title": "Identity Crisis? Keep yours Secure and Forever",
+    "speakers": [
+      "Jarrad Hope (Status)",
+      " Richard Meissner (Gnosis)",
+      " Pedro Gomes (Wallet Connect Foundation)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 10:00",
+    "end": "2018-07-20 10:20",
+    "title": "Holographic Consensus, Scalable DAOs",
+    "speakers": [
+      "Matan Field (DAOStack)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 10:20",
+    "end": "2018-07-20 10:40",
+    "title": "The Road to Futarchy",
+    "speakers": [
+      "Martin K\u00f6ppelmann (Gnosis)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 10:40",
+    "end": "2018-07-20 11:00",
+    "title": "Building Modular Organizations with Aragon",
+    "speakers": [
+      "Brett Sun (Aragon)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "panel",
+    "start": "2018-07-20 11:00",
+    "end": "2018-07-20 11:30",
+    "title": "Potentials of Decentralized Governance",
+    "speakers": [
+      "Adam Levi (DAOStack)",
+      " Martin K\u00f6ppelmann (Gnosis)",
+      " Brett Sun (Aragon)",
+      " Mona El Isa (Melonport)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 11:45",
+    "end": "2018-07-20 12:05",
+    "title": "Realitio, the Crowd-Sourced Oracle",
+    "speakers": [
+      "Edmund Edgar (Reality Keys)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 12:05",
+    "end": "2018-07-20 12:25",
+    "title": "TCR: Use Cases, Attack and Future Development",
+    "speakers": [
+      "Pavlo Makarov (Dapp Dev)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "panel",
+    "start": "2018-07-20 12:25",
+    "end": "2018-07-20 12:55",
+    "title": "From Futarchy to Proof of Location: Applications of TCRs",
+    "speakers": [
+      "Pavlo Makarov (Dapp Dev)",
+      " Arthur Roing Baer (FOAM)",
+      " Billy Rennekamp (Cosmos)",
+      " John Kelleher (LevelK)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 12:55",
+    "end": "2018-07-20 13:15",
+    "title": "Turbo-Geth: Optimising Ethereum Client(s)",
+    "speakers": [
+      "Alexey Akhunov"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 14:30",
+    "end": "2018-07-20 14:40",
+    "title": "EthCC Follow Up: the Castle Project",
+    "speakers": [
+      "Jerome de Tychey (ConsenSys/Asseth)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 14:40",
+    "end": "2018-07-20 15:00",
+    "title": "Web 3: Building the Base for Decentralised Applications",
+    "speakers": [
+      "Peter Czaban (Web 3)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 15:00",
+    "end": "2018-07-20 15:20",
+    "title": "A Brief History of Distributed State",
+    "speakers": [
+      "Ethan Buchmann (Tendermint)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "panel",
+    "start": "2018-07-20 15:25",
+    "end": "2018-07-20 15:55",
+    "title": "The Road to Scalibility",
+    "speakers": [
+      "Peter Czaban (Web3)",
+      " Ethan Buchmann (Tendermint)",
+      " Alexey Akhunov"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 15:55",
+    "end": "2018-07-20 16:15",
+    "title": "Aligning Interests Through Token Unification",
+    "speakers": [
+      "Mona El Isa (Melonport)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "panel",
+    "start": "2018-07-20 16:20",
+    "end": "2018-07-20 16:50",
+    "title": "The Future of Blockchain, What Could Go Wrong?",
+    "speakers": [
+      "Jarrad Hope (Status)",
+      " Joseph Lubin (ConsenSys)",
+      " Jaya Klara Brekke and other TBA"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 16:50",
+    "end": "2018-07-20 17:10",
+    "title": "TBA",
+    "speakers": [
+      "Joseph Lubin (ConsenSys)"
+    ],
+    "location": "mainchain stage"
+  }
+]

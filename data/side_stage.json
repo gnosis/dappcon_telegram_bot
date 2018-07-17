@@ -1,0 +1,282 @@
+[
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 10:20",
+    "end": "2018-07-19 10:35",
+    "title": "Lovelace; The Bluzelle Decentralized Database",
+    "speakers": "Neeraj Murarka (Bluzelle)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 10:35",
+    "end": "2018-07-19 10:50",
+    "title": "Second Layer Execution Markets",
+    "speakers": "Logan Saether (ChronoLogic)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 10:55",
+    "end": "2018-07-19 11:15",
+    "title": "Eth.events - a Supercharged Ethereum API simplifyin Dapp developers\u2019 lives",
+    "speakers": "Sascha Goebel (eth.events project)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 11:30",
+    "end": "2018-07-19 11:50",
+    "title": "Alethio: Do You Know What\u2019s Going On?",
+    "speakers": "Dominik Muhs (Alethio)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 11:50",
+    "end": "2018-07-19 12:10",
+    "title": "VariabL State Channels for Derivatives: Implementation Choices for an Efficient non Custodial Exchange",
+    "speakers": "Hadrien Charlanes (VariabL)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 12:15",
+    "end": "2018-07-19 12:30",
+    "title": "Connecting Ecosystems Through Distributed Private Keys",
+    "speakers": "Balazs Deme (Herdius)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 12:30",
+    "end": "2018-07-19 12:50",
+    "title": "DutchX - An Open Platform",
+    "speakers": "Christiane Ernst (Gnosis)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 12:50",
+    "end": "2018-07-19 13:00",
+    "title": "DutchX >> EazyX: UX design for dapps",
+    "speakers": "Kunal Sachdeva & Rocco Ghielmini (Midas)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 14:30",
+    "end": "2018-07-19 14:50",
+    "title": "Smart Contract Security",
+    "speakers": "Nick Munoz-McDonald (Solidified)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 14:50",
+    "end": "2018-07-19 15:10",
+    "title": "Building a Decentralized Data Infrastructure",
+    "speakers": "Evgeny Ponomarev (Fluence.one)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 15:15",
+    "end": "2018-07-19 15:30",
+    "title": "State Channels Today",
+    "speakers": "Tom Close (Magmo)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 15:30",
+    "end": "2018-07-19 15:45",
+    "title": "A Look Into the Fascinating World of On-Chain Data",
+    "speakers": "Jai Prasad (Token Analyst)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 16:00",
+    "end": "2018-07-19 16:20",
+    "title": "Making a Decentralized Video Application",
+    "speakers": "Eric Tang (Livepeer)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 16:20",
+    "end": "2018-07-19 16:40",
+    "title": "Redesigning Web3 UX with WalletConnect",
+    "speakers": "Pedro Gomes (Wallet Connect Foundation)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 16:45",
+    "end": "2018-07-19 17:05",
+    "title": "Meditations on Governance and Culture",
+    "speakers": "Evan Van Ness (ConsenSys)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 17:05",
+    "end": "2018-07-19 17:25",
+    "title": "Golem: Current Status, Challenges and the Way Ahead",
+    "speakers": "Aleksandra Skrzypczak (Golem)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 17:30",
+    "end": "2018-07-19 17:50",
+    "title": "Build Engaging dApps with User-Centric Data",
+    "speakers": "Michael Sena (UPort)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-19 17:50",
+    "end": "2018-07-19 18:05",
+    "title": "Intro to ECF: Grants for Web 3.0 Ecosystem Builders",
+    "speakers": "Ethereum Community Fund",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 10:00",
+    "end": "2018-07-20 10:15",
+    "title": "TBA",
+    "speakers": "Ricardo J. Mendez (Samsung NEXT)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 10:15",
+    "end": "2018-07-20 10:30",
+    "title": "Scalable Onchain Reward Distribution",
+    "speakers": "Bogdan Batog",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 10:35",
+    "end": "2018-07-20 10:50",
+    "title": "Growing Open Source",
+    "speakers": "Scott Moore & Marc Beacom (Gitcoin)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 10:50",
+    "end": "2018-07-20 11:10",
+    "title": "Tools for a Catallactic Society",
+    "speakers": "Reto Trinkler (Trinkler Software AG)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 11:15",
+    "end": "2018-07-20 11:25",
+    "title": "Portis: Connecting Users to dApps",
+    "speakers": "Itay Radotzki (Portis)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 11:25",
+    "end": "2018-07-20 11:45",
+    "title": "Futarchy Curated Registries",
+    "speakers": "Chris Whinfrey (LevelK)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 12:00",
+    "end": "2018-07-20 12:20",
+    "title": "Decentralized DNS",
+    "speakers": "Christopher Shen & Phyrex Tsai (Portal Network)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 12:20",
+    "end": "2018-07-20 12:35",
+    "title": "DAppNode: How to Create true Decentralised DApps",
+    "speakers": "Eduardo Antu\u00f1a (DappNode)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 12:40",
+    "end": "2018-07-20 13:00",
+    "title": "How to Be Light Client Friendly?",
+    "speakers": "Tomasz Drwiega (Parity Technologies)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 14:30",
+    "end": "2018-07-20 14:50",
+    "title": "ERC777: a New Advanced Token Standard",
+    "speakers": "Jordi Baylina (Giveth.io)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 14:50",
+    "end": "2018-07-20 15:10",
+    "title": "Privacy by Design Platform",
+    "speakers": "Amira Bouguera (Amazig)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 15:10",
+    "end": "2018-07-20 15:25",
+    "title": "Integrating Hardware Wallets in Dapps : the Way Forward with Dapplets",
+    "speakers": "Nicolas Bacca (Ledger)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 15:40",
+    "end": "2018-07-20 15:55",
+    "title": "Testing Matters: Improving Dapp Quality Processes",
+    "speakers": "Rhian Lewis (B9Labs)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 15:55",
+    "end": "2018-07-20 16:15",
+    "title": "INFURA: Bridging the Gap from Web 2.0 to Web 3.0",
+    "speakers": "E.G. Galano (Infura)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 16:20",
+    "end": "2018-07-20 16:40",
+    "title": "Practical Privacy: Why Does Privacy Matter and How to Achieve It with Layer 2 Solutions",
+    "speakers": "Lucas Vogelsang (Centrifuge)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 16:40",
+    "end": "2018-07-20 16:55",
+    "title": "Incubed; A Minimal Verification Client",
+    "speakers": "Christoph Jentzsch (Slock It)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2018-07-20 16:55",
+    "end": "2018-07-20 17:10",
+    "title": "Creating Type Safe DApps with Typescript and TypeChain",
+    "speakers": "Krzysztof Kaczor (Neufund)",
+    "location": "sidechain stage"
+  }
+]

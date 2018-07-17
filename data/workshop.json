@@ -1,0 +1,133 @@
+[
+  {
+    "event_type": "workshop",
+    "start": "2018-07-19 10:00",
+    "end": "2018-07-19 12:00",
+    "title": "Token Design",
+    "speakers": [
+      "Angela Kreitenweis"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-19 12:00",
+    "end": "2018-07-19 12:30",
+    "title": "Smart Contract Security",
+    "speakers": [
+      "Alejo Salles (Zeppelin)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-19 12:30",
+    "end": "2018-07-19 13:00",
+    "title": "ZeppelinOS: Infrastructure and Upgradeability",
+    "speakers": [
+      "Facundo Spagnuolo (Zeppelin)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-19 14:30",
+    "end": "2018-07-19 15:30",
+    "title": "Plasma by Example - Scaling and Merkle-Proofing your Dapp",
+    "speakers": [
+      "Johann Barbie (Pareseclabs.org)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-19 15:30",
+    "end": "2018-07-19 16:00",
+    "title": "Maker.js Tool Set",
+    "speakers": [
+      "Ethan Bennett (MakerDAO)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-19 16:00",
+    "end": "2018-07-19 17:00",
+    "title": "Chocolate Life: Truffle Tips and Tricks",
+    "speakers": [
+      "Nicholas D\u2019Andrea (Truffle)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-19 17:00",
+    "end": "2018-07-19 17:30",
+    "title": "Remix and Dapp - First Step",
+    "speakers": [
+      "Yann Levreau (Remix)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-19 17:30",
+    "end": "2018-07-19 18:00",
+    "title": "Bluzelle Off-Chain Data Storage in Ethereum dApps",
+    "speakers": [
+      "Neeraj Murarka (Bluzelle)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-20 10:00",
+    "end": "2018-07-20 11:00",
+    "title": "Implementing Futarchy: Developer Deep-dive",
+    "speakers": [
+      "Emily Williams (Level K)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-20 11:00",
+    "end": "2018-07-20 12:00",
+    "title": "Token Bondage 101: An Interactive Workshop to Explore Continuous Curation Markets",
+    "speakers": [
+      "Paul Kohlhaas (UPort)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-20 12:00",
+    "end": "2018-07-20 13:00",
+    "title": "Beyond JSON-RPC: Buidling Dapps with EthQL and Infura",
+    "speakers": [
+      "Raul Kripalani (PegaSys)",
+      " Maurycy Pietrzak (Infura)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-20 14:30",
+    "end": "2018-07-20 15:30",
+    "title": "Building Your Own Dapp and DWEB",
+    "speakers": [
+      "Christopher Shen & Phyrex Tsai (Portal Network)"
+    ],
+    "location": "buidl room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2018-07-20 15:30",
+    "end": "2018-07-20 17:00",
+    "title": "Develop a Decentralised Twitter using Embark by Status",
+    "speakers": [
+      "Eric Mastro (Embark)"
+    ],
+    "location": "buidl room"
+  }
+]
