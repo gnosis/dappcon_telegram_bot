@@ -103,6 +103,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# MacOS
+# MacOS & IDE
 .DS_Store
+.idea
+
+# configuration files
+*.config
 
