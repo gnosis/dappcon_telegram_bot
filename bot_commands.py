@@ -118,7 +118,7 @@ def help(bot, update):
         '/buidl - remaining events for today on Buidl',
         '/start - welcome message when joining the chat',
         '/help - shows the message you are reading right now!',
-        '\n Also, type anything for a link to ask questions about a talk'
+        '\nAlso, type anything for a link to ask questions about a talk'
     ]
     bot.send_message(
         chat_id=update.message.chat_id,
