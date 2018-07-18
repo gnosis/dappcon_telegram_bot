@@ -1,8 +1,33 @@
 from datetime import datetime
 
+from random import randint
 import utils
 
 SCHEDULE = utils.load_schedule()
+
+GENERIC_REPLIES = [
+    'oh really!?',
+    'You look great today',
+    'Sounds interesting, tell me more',
+    'That is a good thought',
+    'Much wow, many excite',
+    'Have you ever tried that re-usable bamboo paper towel?',
+    'How about that local sport team?',
+    'Awesome right?',
+    'I completely agree',
+    'Sprechen Sie deutsch?',
+    'Great weather today!',
+    'Did you get stuck in traffic this morning?',
+    'I like your haircut!',
+    'That sounds pleasant',
+    'I am a robot',
+    'I completely agree',
+    'Nice venue',
+    'Are you participating in the Olympia?',
+    'I would like to go to the beach.',
+    'I really enjoyed the previous talk on the Mainchain stage.',
+    'Hungry for apples?',
+]
 
 def start(bot, update):
     bot.send_message(
@@ -11,9 +36,12 @@ def start(bot, update):
     )
 
 def echo(bot, update):
+    random_index = randint(0, len(GENERIC_REPLIES))
+    reply = GENERIC_REPLIES[random_index]
+
     bot.send_message(
         chat_id=update.message.chat_id,
-        text=update.message.text
+        text=reply
     )
 
 def now(bot, update):
