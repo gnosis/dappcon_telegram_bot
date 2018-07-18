@@ -4,7 +4,7 @@ import sys
 
 from telegram.ext import CommandHandler, MessageHandler, Filters, Updater
 
-from bot_commands import start, help, echo, right_now, next, side, main, build
+from bot_commands import start, help, echo, right_now, next, side, main, build, question
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -34,6 +34,7 @@ def deploy_bot():
     dispatcher.add_handler(CommandHandler('buidl', build))
     dispatcher.add_handler(CommandHandler('now', right_now))
     dispatcher.add_handler(CommandHandler('help', help))
+    dispatcher.add_handler(CommandHandler('question', question))
 
     updater.start_polling()
     _log.info("Successfully dispatched bot commands.")

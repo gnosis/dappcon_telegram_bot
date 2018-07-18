@@ -27,6 +27,10 @@ GENERIC_REPLIES = [
     'I would like to go to the beach.',
     'I really enjoyed the previous talk on the Mainchain stage.',
     'Hungry for apples?',
+    'I only have finitely many distinct replies.',
+    'All signs point to yes',
+    'Lemonade is the German word for pop which is the Canadian word for soda',
+    'Most likely',
 ]
 
 def start(bot, update):
@@ -38,10 +42,10 @@ def start(bot, update):
     )
 
 def echo(bot, update):
-    # random_index = randint(0, len(GENERIC_REPLIES))
-    # reply = GENERIC_REPLIES[random_index]
-    reply = "Have a question for the ongoing talks @dappcon_berlin?\n" \
-            "Please head to https://www.sli.do/ and enter the code 9189 to ask your question!"
+    random_index = randint(0, len(GENERIC_REPLIES))
+    reply = GENERIC_REPLIES[random_index]
+    # reply = "Have a question for the ongoing talks @dappcon_berlin?\n" \
+    #         "Please head to https://www.sli.do/ and enter the code 9189 to ask your question!"
     bot.send_message(
         chat_id=update.message.chat_id,
         text=reply
@@ -109,10 +113,19 @@ def right_now(bot, update):
         text=mess
     )
 
+def question(bot, update):
+    reply = "Have a question for the ongoing talks @dappcon_berlin?\n" \
+            "Please head to https://www.sli.do/ and enter the code 9189 to ask your question!"
+    bot.send_message(
+        chat_id=update.message.chat_id,
+        text=reply
+    )
+
 def help(bot, update):
     available_commands = [
         '/next - shows next event in each of the three areas',
         '/now - displays current events',
+        '/question - reminder link to ask questions about a talk',
         '/main - remaining events for today on Mainchain',
         '/side - remaining events for today on Sidechain',
         '/buidl - remaining events for today on Buidl',
