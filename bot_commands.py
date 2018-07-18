@@ -32,13 +32,16 @@ GENERIC_REPLIES = [
 def start(bot, update):
     bot.send_message(
         chat_id=update.message.chat_id,
-        text="I'm the dAppCon Schedule bot! Type /help for a list of commands"
+        text="I'm the dAppCon Schedule bot! Type /help for a list of commands. "
+             "\nHave a question for the ongoing talks @dappcon_berlin? "
+             "Please head to https://www.sli.do/ and enter the code 9189 to ask your question!"
     )
 
 def echo(bot, update):
-    random_index = randint(0, len(GENERIC_REPLIES))
-    reply = GENERIC_REPLIES[random_index]
-
+    # random_index = randint(0, len(GENERIC_REPLIES))
+    # reply = GENERIC_REPLIES[random_index]
+    reply = "Have a question for the ongoing talks @dappcon_berlin?\n" \
+            "Please head to https://www.sli.do/ and enter the code 9189 to ask your question!"
     bot.send_message(
         chat_id=update.message.chat_id,
         text=reply
@@ -114,7 +117,8 @@ def help(bot, update):
         '/side - remaining events for today on Sidechain',
         '/buidl - remaining events for today on Buidl',
         '/start - welcome message when joining the chat',
-        '/help - shows the message you are reading right now!'
+        '/help - shows the message you are reading right now!',
+        '\n Also, type anything for a link to ask questions about a talk'
     ]
     bot.send_message(
         chat_id=update.message.chat_id,
