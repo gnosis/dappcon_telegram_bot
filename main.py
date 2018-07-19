@@ -1,6 +1,8 @@
 
 import logging
+import os
 import sys
+
 
 from telegram.ext import CommandHandler, MessageHandler, Filters, Updater
 
@@ -15,6 +17,9 @@ _log = logging.getLogger(__name__)
 
 
 def deploy_bot():
+
+    os.environ['TZ'] = 'Europe/Berlin'
+
     _log.info("....:Beginning dAppCon Bot Service:....")
 
     try:
