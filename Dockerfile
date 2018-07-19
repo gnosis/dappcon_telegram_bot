@@ -7,6 +7,7 @@ COPY requirements.txt ./
 # Signal handling for PID1 https://github.com/krallin/tini
 RUN apk add --update --no-cache tini && \
     apk add --no-cache --virtual .build-dependencies alpine-sdk libffi-dev autoconf automake libtool gmp-dev && \
+    apk add --no-cache tzdata && \
     pip install --no-cache-dir -r requirements.txt --upgrade && \
     apk del .build-dependencies && \
     find /usr/local \
