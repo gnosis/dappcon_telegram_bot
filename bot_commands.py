@@ -17,7 +17,7 @@ GENERIC_REPLIES = [
     'I completely agree',
     'How about this WiFi?',
     'Are you participating in the Olympia? Its lit',
-    'Are there beaches in Berlin?.',
+    'Are there beaches in Berlin?',
     'I really enjoyed the previous talk on the Mainchain stage.',
     'Hungry for apples or bananas?',
     'I only have finitely many distinct replies.',
@@ -29,7 +29,7 @@ def start(bot, update):
     bot.send_message(
         chat_id=update.message.chat_id,
         text="I'm the dAppCon Schedule bot! Type /help for a list of commands. "
-             "\nHave a question for the ongoing talks @dappcon_berlin? "
+             "\n\nHave a question for the ongoing talks @dappcon_berlin? "
              "\nPlease head to https://www.sli.do/ and enter one of the following codes:"
              "\n - The legally - compliant DAO: More hype than substance Code: #6737"
              "\n - Look at my flashy colors and rounded corners! Code: #B398"
@@ -63,11 +63,14 @@ def next(bot, update):
     main = [m for m in SCHEDULE if m.location == 'Mainchain Stage' if m.start >= now]
     side = [s for s in SCHEDULE if s.location == 'Sidechain Stage' if s.start >= now]
 
+
     next_build = sorted(build, key=lambda x: x.start)[0]
     next_main = sorted(main, key=lambda x: x.start)[0]
     next_side = sorted(side, key=lambda x: x.start)[0]
 
-    mess = '\n\n'.join(map(str, [next_main, next_side, next_build]))
+    warning = "(Remember that workshops don't start until friday!)"
+
+    mess = '\n\n'.join(map(str, [next_main, next_side, next_build, warning]))
     bot.send_message(chat_id=update.message.chat_id, text=mess)
 
 
@@ -80,12 +83,8 @@ def rest(rest_of_what):
     ]
 
     remaining = sorted(rest, key=lambda x: x.start)
-
-    print(now, rest, rest_of_what)
-
-    empty = "There are no current events for the rest of the day!"
+    empty = "There are no more talks, panels or workshops there for the rest of the day!"
     message = '\n\n'.join(map(str, remaining)) or empty
-    print(message)
     return message
 
 
@@ -106,21 +105,21 @@ def side(bot, update):
 def workshop_rinkeby(bot, update):
     bot.send_message(
         chat_id=update.message.chat_id,
-        text=rest('rinkeby room')
+        text=rest('Rinkeby Room')
     )
 
 
 def workshop_kovan(bot, update):
     bot.send_message(
         chat_id=update.message.chat_id,
-        text=rest('kovan room')
+        text=rest('Kovan Room')
     )
 
 
 def workshop_ropsten(bot, update):
     bot.send_message(
         chat_id=update.message.chat_id,
-        text=rest('ropsten room')
+        text=rest('Ropsten Room')
     )
 
 
@@ -141,7 +140,7 @@ def help(bot, update):
         '/main - remaining events for today on Mainchain',
         '/side - remaining events for today on Sidechain',
         '/workshop_rinkeby - remaining events for today in the Rinkeby workshop room',
-        '/workshop_kovak - remaining events for today in the Kovak workshop room',
+        '/workshop_kovan - remaining events for today in the Kovan workshop room',
         '/workshop_ropsten - remaining events for today in the Ropsten workshop room',
         '/start - welcome message when joining the chat',
         '/help - shows the message you are reading right now!',
