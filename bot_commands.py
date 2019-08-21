@@ -85,7 +85,6 @@ def rest(rest_of_what):
 
     empty = "There are no current events for the rest of the day!"
     message = '\n\n'.join(map(str, remaining)) or empty
-    print(message)
     return message
 
 
