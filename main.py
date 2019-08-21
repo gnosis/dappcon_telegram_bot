@@ -23,7 +23,7 @@ def deploy_bot():
     _log.info("....:Beginning dAppCon Bot Service:....")
 
     try:
-        key = "907839309:AAFguq_YSfKmiApaCy9BxSPBA1EnDkjLY7s"
+        key = sys.argv[1]
     except IndexError:
         raise EnvironmentError(
             "Supply Telegram API-key as first script parameter!")
