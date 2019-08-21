@@ -1,0 +1,146 @@
+[
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 10:00",
+    "end": "2019-08-23 10:30",
+    "title": "GraphQL, Archive Data and under utilized APIs ",
+    "speakers": [
+      "E.G. Galano (Infura)"
+    ],
+    "location": "rinkeby room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 10:30",
+    "end": "2019-08-23 13:00",
+    "title": "How to become and Ethereum core",
+    "speakers": [
+      "Alexey Akhunov (Ledger Watch)",
+      "Dimitry Khoklov (Ledger Watch)"
+    ],
+    "location": "rinkeby room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 14:00",
+    "end": "2019-08-23 16:00",
+    "title": "Remixing Remix and relearning Solidity solidity",
+    "speakers": [
+      "Yann Levreau (Remix)",
+      "Liana Husikyan (Remix)",
+      "Francois Guezengar (Remix)"
+    ],
+    "location": "rinkeby room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 16:00",
+    "end": "2019-08-23 17:30",
+    "title": "Achieving scalability on Ethereum 1.0",
+    "speakers": [
+      "Ethan Bennett (MakerDAO)"
+    ],
+    "location": "rinkeby room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 10:00",
+    "end": "2019-08-23 10:30",
+    "title": "Building fast, decentralized web apps adn frontends",
+    "speakers": [
+      "Sam Williams (Arweave)"
+    ],
+    "location": "kovan room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 10:30",
+    "end": "2019-08-23 12:30",
+    "title": "Building MetaTransaction powered dApplications with OpenZeppelin and Starter Kit",
+    "speakers": [
+      "Dennison Bertram (OpenZeppelin)"
+    ],
+    "location": "kovan room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 13:30",
+    "end": "2019-08-23 14:30",
+    "title": "Bringing data privacy to Ethereum apps with Enigma",
+    "speakers": [
+      "Lena Kleyner (Enigma)"
+    ],
+    "location": "kovan room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 14:30",
+    "end": "2019-08-23 15:30",
+    "title": "How to analyze Ethereum data and share your results in minutes",
+    "speakers": [
+      "Fredrik Haga (Dune Analytics)"
+    ],
+    "location": "kovan room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 15:30",
+    "end": "2019-08-23 17:30",
+    "title": "How to build a decentralized chat app with 3box",
+    "speakers": [
+      "Michael Sena (3BOX)",
+      "Joel Torstennson (3BOX)"
+    ],
+    "location": "rinkeby room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 10:00",
+    "end": "2019-08-23 12:00",
+    "title": "Writing adaptive Aragon DAOs",
+    "speakers": [
+      "Cory Dickson (Aragon)"
+    ],
+    "location": "ropsten room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 12:00",
+    "end": "2019-08-23 13:00",
+    "title": "Conditional tokens - hands-on training on a new binding library",
+    "speakers": [
+      "Raphael Mazet (Alice)",
+      "Jakup Wojciechowski (Alice)"
+    ],
+    "location": "ropsten room"
+  },
+  {
+    "event_type": "workshop",
+    "start": "2019-08-23 14:00",
+    "end": "2019-08-23 15:00",
+    "title": "Getting hands-on with 0x mesh: a P2P netork for propagating DEX orders",
+    "speakers": [
+      "Fabio Berger (0x)"
+    ],
+    "location": "ropsten room"
+  },
+    {
+    "event_type": "workshop",
+    "start": "2019-08-23 15:00",
+    "end": "2019-08-23 17:00",
+    "title": "cadCAD Introduction",
+    "speakers": [
+      "Token Engineering"
+    ],
+    "location": "ropsten room"
+  },  {
+    "event_type": "workshop",
+    "start": "2019-08-23 17:00",
+    "end": "2019-08-23 18:00",
+    "title": "Legal AMA session",
+    "speakers": [
+      "Token Engineering"
+    ],
+    "location": "ropsten room"
+  }
+]

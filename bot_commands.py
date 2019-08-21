@@ -1,55 +1,53 @@
 from datetime import datetime
+import utils
 
 from random import randint
-import utils
 
 SCHEDULE = utils.load_schedule()
 
 GENERIC_REPLIES = [
     'oh really!?',
-    'You look great today',
     'Sounds interesting, tell me more',
-    'That is a good thought',
-    'Much wow, many excite',
-    'Have you ever tried that re-usable bamboo paper towel?',
+    'That is definitely a good thought',
     'How about that local sport team?',
-    'Awesome right?',
     'I completely agree',
-    'Sprechen Sie deutsch?',
+    'Sprechen Sie Deutsch?',
     'Great weather today!',
-    'Did you get stuck in traffic this morning?',
-    'I like your haircut!',
-    'That sounds pleasant',
     'I am a robot',
     'I completely agree',
-    'Nice venue',
-    'Are you participating in the Olympia?',
-    'I would like to go to the beach.',
+    'How about this WiFi?',
+    'Are you participating in the Olympia? Its lit',
+    'Are there beaches in Berlin?.',
     'I really enjoyed the previous talk on the Mainchain stage.',
-    'Hungry for apples?',
+    'Hungry for apples or bananas?',
     'I only have finitely many distinct replies.',
-    'All signs point to yes',
-    'Lemonade is the German word for pop which is the Canadian word for soda',
     'Most likely',
 ]
+
 
 def start(bot, update):
     bot.send_message(
         chat_id=update.message.chat_id,
         text="I'm the dAppCon Schedule bot! Type /help for a list of commands. "
              "\nHave a question for the ongoing talks @dappcon_berlin? "
-             "Please head to https://www.sli.do/ and enter the code 9189 to ask your question!"
+             "\nPlease head to https://www.sli.do/ and enter one of the following codes:"
+             "\n - The legally - compliant DAO: More hype than substance Code: #6737"
+             "\n - Look at my flashy colors and rounded corners! Code: #B398"
+             "\n - Epicenter Live Code: #K367"
+             "\n - Tales of governance: DAOs, Swarms and Anarchic systems Code: #Q749"
+             "\n - AMA - Joseph Lubin Code: #Q293"
+             "\n - How to measure success? Code: #D624"
     )
+
 
 def echo(bot, update):
     random_index = randint(0, len(GENERIC_REPLIES))
     reply = GENERIC_REPLIES[random_index]
-    # reply = "Have a question for the ongoing talks @dappcon_berlin?\n" \
-    #         "Please head to https://www.sli.do/ and enter the code 9189 to ask your question!"
     bot.send_message(
         chat_id=update.message.chat_id,
         text=reply
     )
+
 
 def now(bot, update):
     bot.send_message(
@@ -57,10 +55,11 @@ def now(bot, update):
         text=str(datetime.now())
     )
 
+
 def next(bot, update):
     now = datetime.now()
 
-    build = [b for b in SCHEDULE if b.location == 'Buidl Room' if b.start >= now]
+    build = [b for b in SCHEDULE if b.location in ['Rinkeby Room', "Kovan Room", "Ropsten Room"] if b.start >= now]
     main = [m for m in SCHEDULE if m.location == 'Mainchain Stage' if m.start >= now]
     side = [s for s in SCHEDULE if s.location == 'Sidechain Stage' if s.start >= now]
 
@@ -82,7 +81,11 @@ def rest(rest_of_what):
 
     remaining = sorted(rest, key=lambda x: x.start)
 
-    message = '\n\n'.join(map(str, remaining))
+    print(now, rest, rest_of_what)
+
+    empty = "There are no current events for the rest of the day!"
+    message = '\n\n'.join(map(str, remaining)) or empty
+    print(message)
     return message
 
 
@@ -92,17 +95,34 @@ def main(bot, update):
         text=rest('Mainchain Stage')
     )
 
+
 def side(bot, update):
     bot.send_message(
         chat_id=update.message.chat_id,
         text=rest('Sidechain Stage')
     )
 
-def build(bot, update):
+
+def workshop_rinkeby(bot, update):
     bot.send_message(
         chat_id=update.message.chat_id,
-        text=rest('Buidl Room')
+        text=rest('rinkeby room')
     )
+
+
+def workshop_kovan(bot, update):
+    bot.send_message(
+        chat_id=update.message.chat_id,
+        text=rest('kovan room')
+    )
+
+
+def workshop_ropsten(bot, update):
+    bot.send_message(
+        chat_id=update.message.chat_id,
+        text=rest('ropsten room')
+    )
+
 
 def right_now(bot, update):
     current_events = [e for e in SCHEDULE if e.is_now()]
@@ -113,25 +133,18 @@ def right_now(bot, update):
         text=mess
     )
 
-def question(bot, update):
-    reply = "Have a question for the ongoing talks @dappcon_berlin?\n" \
-            "Please head to https://www.sli.do/ and enter the code 9189 to ask your question!"
-    bot.send_message(
-        chat_id=update.message.chat_id,
-        text=reply
-    )
 
 def help(bot, update):
     available_commands = [
         '/next - shows next event in each of the three areas',
         '/now - displays current events',
-        '/question - reminder link to ask questions about a talk',
         '/main - remaining events for today on Mainchain',
         '/side - remaining events for today on Sidechain',
-        '/buidl - remaining events for today on Buidl',
+        '/workshop_rinkeby - remaining events for today in the Rinkeby workshop room',
+        '/workshop_kovak - remaining events for today in the Kovak workshop room',
+        '/workshop_ropsten - remaining events for today in the Ropsten workshop room',
         '/start - welcome message when joining the chat',
         '/help - shows the message you are reading right now!',
-        '\nAlso, type anything for a link to ask questions about a talk'
     ]
     bot.send_message(
         chat_id=update.message.chat_id,
