@@ -24,7 +24,7 @@ def make_event(json_str):
 
 def load_schedule():
     raw_events = []
-    for file_name in ['main_stage', 'side_stage', 'workshop']:
+    for file_name in ['2019/main_stage', '2019/side_stage', '2019/workshop']:
         with open('data/{}.json'.format(file_name), 'r') as file:
             stage_list = json.loads(file.read())
             raw_events += stage_list

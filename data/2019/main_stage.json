@@ -1,0 +1,100 @@
+[
+  {
+    "event_type": "panel",
+    "start": "2019-08-22 10:00",
+    "end": "2019-08-22 10:45",
+    "title": "Epicenter Live Podcast",
+    "speakers": [
+      "Sebastian Couture (Epicenter TV)",
+      "Friederike Ernst (Gnosis/Epicenter TV)",
+      "Sunny Aggarawal (Cosmos/Epicetner TV)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 10:45",
+    "end": "2019-08-22 11:15",
+    "title": "MolochDAO has risen, now what?",
+    "speakers": [
+      "Ameen Soleimani (MolochDAO)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 11:15",
+    "end": "2019-08-22 11:45",
+    "title": "Governance design for positive stakeholder engagement and preventing contemptuous hard forks during platform upgrades",
+    "speakers": [
+      "Stephanie Hurder (Prysm Group)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "panel",
+    "start": "2019-08-22 11:45",
+    "end": "2019-08-22 12:30",
+    "title": "Panel: Tales of governance: Daps Swarsm and Anarchic Systems",
+    "speakers": [
+      "Ameen Soleimani (MolochDAO)",
+      "Stephanie Hurder (Prysm Group)",
+      "Jorge Izquierdo (Aragon One)",
+      "Sunny Aggarawal (Cosmos/Epicetner TV)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 13:45",
+    "end": "2019-08-22 14:15",
+    "title": "Crowd-sourced oracles, parasites and forkonomics",
+    "speakers": [
+      "Edmund Edgar (Realitio)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 14:15",
+    "end": "2019-08-22 14:45",
+    "title": "Multi-conditional tokens as a new crypto",
+    "speakers": [
+      "Friederike Ernst (Gnosis)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 14:45",
+    "end": "2019-08-22 15:30",
+    "title": "AMA with Joseph Lubin",
+    "speakers": [
+      " Joseph Lubin (ConsenSys) "
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 16:30",
+    "end": "2019-08-22 17:00",
+    "title": "An overview of technologies used for building permissionless exchanges",
+    "speakers": [
+      "Alexander Hermann (Gnosis)"
+    ],
+    "location": "mainchain stage"
+  },
+  {
+    "event_type": "panel",
+    "start": "2019-08-22 17:00",
+    "end": "2019-08-22 17:45",
+    "title": "How to measure success?",
+    "speakers": [
+      "Joseph Lubin (ConsenSys)",
+      "Morgan Bell",
+      "Ryan Selkis (Messari)",
+      "Zoe Adamovic (Neufund)"
+    ],
+    "location": "mainchain stage"
+  }
+]

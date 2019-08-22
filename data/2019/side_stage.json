@@ -1,0 +1,122 @@
+[
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 10:00",
+    "end": "2019-08-22 10:15",
+    "title": "Automated refinancing and placing limit orders with conditional transaction executions",
+    "speakers": "Luis Schliesske & Hilmar Maximilian Orth (Gelato)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 10:15",
+    "end": "2019-08-22 10:30",
+    "title": "Contract-based accounts: Their implications for mobile dapps, UX, censorship, and DevEX",
+    "speakers": "Paul Cowgill (Tasit Labs)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 10:30",
+    "end": "2019-08-22 11:00",
+    "title": "How to reach daily cryptocurrency utility with Dapps",
+    "speakers": "Viktor Radchenko (Trust Wallet)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 11:00",
+    "end": "2019-08-22 11:30",
+    "title": "Metatransactions: Can they solve all your problems?",
+    "speakers": "Alex Van de Sande (Ethereum Foundation)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 11:30",
+    "end": "2019-08-22 12:00",
+    "title": "WalletConnect's Road to 2.0",
+    "speakers": "Pedro Gomes (Wallet Connect)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 12:00",
+    "end": "2019-08-22 12:15",
+    "title": "On-board new users to your Dapp with digital asset based referral-marketing",
+    "speakers": "Mikhail Dobrokhvalov & Gustav Friis (Linkdrop)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 13:00",
+    "end": "2019-08-22 13:25",
+    "title": "Continuously funded DAOs",
+    "speakers": "Thomas Spofford (dorg)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 13:25",
+    "end": "2019-08-22 13:50",
+    "title": "Building the Aragon network, a jurisdiction for DAOs",
+    "speakers": "Jorge Izquierdo (Aragon One)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 13:50",
+    "end": "2019-08-22 14:15",
+    "title": "Anti-rival, collaborative networks",
+    "speakers": "Matan Field (DAO Stack)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 14:15",
+    "end": "2019-08-22 14:40",
+    "title": "Reputation and cross-DAO collaboration in the dxDAO",
+    "speakers": "Matthew Finestone (Loopring)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 14:40",
+    "end": "2019-08-22 15:05",
+    "title": "Decoupling from the legacy financial system: benefits from the finance-oriented DAOs",
+    "speakers": "Anastasia Andria (Akropolis)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 15:30",
+    "end": "2019-08-22 15:55",
+    "title": "An esssential and practical guide to Chinese community",
+    "speakers": "Toya Bu (Nervos Network)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 15:55",
+    "end": "2019-08-22 16:20",
+    "title": "10 questions to an Ethereum OG project: the Golem project",
+    "speakers": "Aleksandra Skrzypczak (Golem)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 16:20",
+    "end": "2019-08-22 16:45",
+    "title": "Why finance can be better on Ethereum: Complexity and systemic risk",
+    "speakers": "Ethan Bennet (MakerDAO)",
+    "location": "sidechain stage"
+  },
+  {
+    "event_type": "talk",
+    "start": "2019-08-22 16:45",
+    "end": "2019-08-22 17:10",
+    "title": "Designing for humans: crypto insights from field research in Kenya, Tanzania, Argentina, Venezuela, and Mexico",
+    "speakers": "Vaness Slavich (Celo)",
+    "location": "sidechain stage"
+  }
+]
