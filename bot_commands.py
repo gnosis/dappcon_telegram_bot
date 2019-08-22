@@ -59,7 +59,7 @@ def now(bot, update):
 def next(bot, update):
     now = datetime.now()
 
-    build = [b for b in SCHEDULE if b.location in ['Rinkeby Room', "Kovan Room", "Ropsten Room"] if b.start >= now]
+    build = [b for b in SCHEDULE if b.location in {'Rinkeby Room', "Kovan Room", "Ropsten Room"} if b.start >= now]
     main = [m for m in SCHEDULE if m.location == 'Mainchain Stage' if m.start >= now]
     side = [s for s in SCHEDULE if s.location == 'Sidechain Stage' if s.start >= now]
 
